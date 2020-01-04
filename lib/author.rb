@@ -7,7 +7,7 @@ class Author
   end
   
   def posts
-    Post.all_posts
+    Post.all
   end
   
   def add_post(post)
@@ -20,7 +20,7 @@ class Author
   end
   
   def self.post_count
-    Post.all_posts.count
+    Post.all.count
   end
   
 end
