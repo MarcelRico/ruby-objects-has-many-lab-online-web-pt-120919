@@ -6,8 +6,8 @@ class Author
     @name = author_name
   end
   
-  def self.posts
-    Author.all_posts
+  def posts
+    Posts.all_posts
   end
   
 end
