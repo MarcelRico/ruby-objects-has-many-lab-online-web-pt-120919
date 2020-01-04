@@ -13,5 +13,8 @@ class Post
     @@all
   end
   
+  def self.author_name
+    self.author
+  end
   
 end
