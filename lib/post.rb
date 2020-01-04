@@ -5,7 +5,7 @@ class Post
   attr_accessor :author
   
   def initialize
-    
+    @@all << self
   end
   
 end
