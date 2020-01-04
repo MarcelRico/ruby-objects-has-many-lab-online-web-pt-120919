@@ -7,7 +7,7 @@ class Author
   end
   
   def posts
-    Posts.all_posts
+    Post.all_posts
   end
   
 end
