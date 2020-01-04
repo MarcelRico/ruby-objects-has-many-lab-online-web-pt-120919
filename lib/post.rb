@@ -13,8 +13,8 @@ class Post
     @@all
   end
   
-  def self.author_name
-    @author.name
+  def author_name
+    self.author.name
   end
   
 end
