@@ -8,4 +8,8 @@ class Post
     @@all << self
   end
   
+  def all_posts
+    @@all
+  end
+  
 end
