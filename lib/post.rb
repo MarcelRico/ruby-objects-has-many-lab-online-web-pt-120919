@@ -14,7 +14,7 @@ class Post
   end
   
   def self.author_name
-    self.author.name
+    @author.name
   end
   
 end
